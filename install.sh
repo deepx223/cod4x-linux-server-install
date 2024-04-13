@@ -22,6 +22,6 @@ cd --
 cd /cod4/cod4x-linux-server
 
 # Start the server
-sudo chmod 777 *
-sudo screen -S cod4x-server ./start.sh
+chmod 777 *
+screen -S cod4x-server ./start.sh
 
