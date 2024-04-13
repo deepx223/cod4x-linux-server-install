@@ -4,7 +4,7 @@
 Clone respo
 
 ```bash
-git clone https://github.com/deepx223/cod4x-linux-server.git
+git clone https://github.com/deepx223/cod4x-linux-server-install.git
 ```
 
 Run Script
