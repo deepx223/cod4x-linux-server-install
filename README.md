@@ -13,8 +13,8 @@ Run Script
 cd cod4x-linux-server
 sudo apt-get install dos2unix
 dos2unix install.sh
-sudo chmod 777 *
-sudo ./install.sh
+chmod 777 *
+./install.sh
 ```
 
 ## Server Information 
