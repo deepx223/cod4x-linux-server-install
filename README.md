@@ -10,7 +10,7 @@ git clone https://github.com/deepx223/cod4x-linux-server-install.git
 Run Script
 
 ```bash
-cd cod4x-linux-server
+cd cod4x-linux-server-install
 sudo apt-get install dos2unix
 dos2unix install.sh
 chmod 777 *
