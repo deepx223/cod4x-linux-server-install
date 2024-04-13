@@ -12,7 +12,7 @@ sudo apt install python3-pip
 sudo pip3 install gdown
 
 # Download the server files
-cd /ubuntu/
+cd ..
 mkdir cod4
 cd /cod4/
 gdown --id 1YhrP8OV0l-LKJKHC6BoRg7pQ1Bki4zYd
