@@ -4,11 +4,11 @@
 # Update the system and install dependencies
 sudo dpkg --add-architecture i386
 sudo apt-get update && sudo apt-get upgrade -y
-sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
+sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 -y
 sudo apt-get install unzip -y
 
 # Get gdown and python pip
-sudo apt install python3-pip
+sudo apt install python3-pip -y
 sudo pip3 install gdown
 
 # Download the server files
