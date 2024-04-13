@@ -9,17 +9,15 @@ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
 sudo apt-get install unzip -y
 
 # Get gdown and python pip
-sudo apt install python-pip
-sudo pip install gdown
+sudo apt install python3-pip
+sudo pip3 install gdown
 
 # Download the server files
-cd /home
-sudo mkdir servers
-cd /home/servers
-sudo gdown --id 1YhrP8OV0l-LKJKHC6BoRg7pQ1Bki4zYd
-sudo unzip cod4x-linux-server.zip
-sudo rm cod4x-linux-server.zip
-cd /home/servers/cod4x-linux-server
+cd /ubuntu
+gdown --id 1YhrP8OV0l-LKJKHC6BoRg7pQ1Bki4zYd
+unzip cod4x-linux-server.zip
+rm cod4x-linux-server.zip
+cd /ubuntu/cod4x-linux-server
 
 # Start the server
 sudo chmod 777 *
