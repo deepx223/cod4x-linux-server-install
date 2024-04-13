@@ -13,12 +13,11 @@ sudo pip3 install gdown
 
 # Download the server files
 cd ..
-cd cod4x-linux-server
 gdown --id 1YhrP8OV0l-LKJKHC6BoRg7pQ1Bki4zYd
 unzip cod4x-linux-server.zip
 rm cod4x-linux-server.zip
 cd --
-cd /cod4/cod4x-linux-server
+cd cod4x-linux-server
 
 # Start the server
 chmod 777 *
