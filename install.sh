@@ -24,4 +24,5 @@ chmod 777 *
 screen -S cod4x-server ./start.sh
 
 # gdown --id 1Y1dcFUqpeOqt4I0rltZdqK9dQF4SrTNU
+# iw4x gdown --id 10vsFMd-Z94EtWv7AXWwsVLI3Eweh1TSk
 
